@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", "initial-scale=1, user-scalable=yes">
     <title>walk-in-site</title>
 
     <!-- build:css styles/vendor.css -->
@@ -9,13 +10,45 @@
     
     <!-- endbuild -->
 
+    
     <link rel="stylesheet" href="styles/main.css">
-
     
   </head>
 
   <body>
-    <h1>Time to start prototyping!</h1>
+
+  <!--user login and password-->
+
+
+    <form class="login_section">
+
+      <img class="banner_pic" src="http://placekitten.com/1600/800">
+        <div class="container">
+          <div class="username_entry">
+            <label for="username">Username</label>
+          </div>
+          <div class="username_entry">  
+            <input id="username" name="username" type="text">
+          </div>
+        </div>
+      
+        <div class="container">
+          <div class="password_entry">
+            <label for"password">Password</label>
+          </div>
+          <div class="password_entry">  
+            <input id="password" name="password" type="password">
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="button_style">
+          <input class="button_style1" type=button onClick="location.href='lookup.html'" value='Submit'>
+          </div>
+         </div> 
+
+    </form>
+ 
 
     <!-- build:js scripts/main.js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
